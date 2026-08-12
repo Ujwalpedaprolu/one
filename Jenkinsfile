@@ -15,7 +15,7 @@ pipeline {
                 mavenBuild()
             }
         }
-        stage ("image")
+        stage ("image") {
             steps {
                 dockerBuild('ujjvalpedaprolu/sl', "${BUILD_NUMBER}")
             }
