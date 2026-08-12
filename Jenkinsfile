@@ -2,7 +2,7 @@
 pipeline {
     agent any
     tools {
-        maven "mymavan"
+        maven "mymaven"
     }
     stages {
         stage ("Code") {
@@ -12,7 +12,7 @@ pipeline {
         }
         stage ("Build") {
             steps {
-                mavanBuild()
+                mavenBuild()
             }
         }
         stage ("image") {
