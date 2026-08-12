@@ -12,7 +12,7 @@ pipeline {
         }
         stage ("Build") {
             steps {
-                mavenBuild()
+                mavanBuild()
             }
         }
         stage ("image") {
