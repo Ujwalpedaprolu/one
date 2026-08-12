@@ -5,17 +5,17 @@ pipeline {
         maven "mymaven"
     }
     stages {
-        stage (Code) {
+        stage ("Code") {
             steps {
                 checkoutCode()
             }
         }
-        stage (Build) {
+        stage ("Build") {
             steps {
                 mavenBuild()
             }
         }
-        stage (image) {
+        stage ("image") {
             steps {
                 script {
                     def image_name = "ujjvalpedaprolu/sl"
