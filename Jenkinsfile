@@ -15,7 +15,12 @@ pipeline {
                 mavenBuild()
             }
         }
-        stage ("image") {
+        stage ("image")
+            steps {
+                dockerBuild("ujjvalpedaprolu/sl", "${BUILD_NUMBER}")
+            }
+        }
+        stage ("push") {
             steps {
                 script {
                     def image_name = "ujjvalpedaprolu/sl"
