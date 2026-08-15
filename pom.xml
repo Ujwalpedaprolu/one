@@ -36,31 +36,29 @@
     <repositories>
 
 <repository>
-    <id>satish-feed</id>
-    <url>https://pkgs.dev.azure.com/venkatujjval/my-first-project/_packaging/satish-feed/maven/v1</url>
-    <releases>
-        <enabled>true</enabled>
-    </releases>
-    <snapshots>
-        <enabled>true</enabled>
-    </snapshots>
+  <id>ujjval-feed1</id>
+  <url>https://pkgs.dev.azure.com/venkatujjval/my-first-project/_packaging/ujjval-feed1/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
 </repository>
-
     </repositories>
 
     <distributionManagement>
 
 <repository>
-    <id>satish-feed</id>
-    <url>https://pkgs.dev.azure.com/venkatujjval/my-first-project/_packaging/satish-feed/maven/v1</url>
-    <releases>
-        <enabled>true</enabled>
-    </releases>
-    <snapshots>
-        <enabled>true</enabled>
-    </snapshots>
+  <id>ujjval-feed1</id>
+  <url>https://pkgs.dev.azure.com/venkatujjval/my-first-project/_packaging/ujjval-feed1/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
 </repository>
-
     </distributionManagement>
 
     <build>
